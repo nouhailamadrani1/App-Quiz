@@ -2,12 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: black;
 }
 
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background: black;
 }
 
 .quiz-app {
@@ -101,4 +99,29 @@ body {
 }
 .quiz-app .results span.perfect {
   color: #00a6ff;
+}
+
+.index {
+  background-image: url("cover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  color: rgb(152, 76, 246);
+  padding: 10px;
+}
+
+section {
+  color: rgb(152, 76, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 650px;
+  height: 300px;
+  margin: auto;
+}
+section h3 {
+  color: rgb(152, 76, 246);
 }/*# sourceMappingURL=style.css.map */
